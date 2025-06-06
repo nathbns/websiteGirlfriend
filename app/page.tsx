@@ -159,7 +159,7 @@ export default function Home() {
               margotte@perso:~/${activeSection}
             </span>
             <button className={styles.closeBtn} onClick={handleClose}>
-              [q] Quit
+              [q]
             </button>
           </div>
           <div className={styles.terminalContent}>
