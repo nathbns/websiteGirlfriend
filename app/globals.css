@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Couleurs principales */
+  --color-bg-primary: #f7f0d8; /* fond principal crème */
+  --color-bg-secondary: #f4eade; /* fond secondaire rosé */
+  --color-bg-tertiary: #f7e1fc; /* fond tertiaire lavande */
+  --color-bg-quaternary: #e7e3f4; /* fond quaternaire lavande pâle */
+
+  /* Couleurs de texte */
+  --color-text-primary: #575279; /* texte principal gris-violet */
+  --color-text-secondary: #9893a5; /* texte secondaire gris clair */
+  --color-text-accent: #b4637a; /* accent rose doux */
+  --color-text-highlight: #8a7ea8; /* violet pastel */
+  --color-text-warning: #ea9d34; /* orange pastel */
+  --color-text-error: #d7827e; /* rouge pastel */
+
+  /* Couleurs de bordure */
+  --color-border: #cecacd; /* lavande/gris clair */
 }
 
 @theme inline {
