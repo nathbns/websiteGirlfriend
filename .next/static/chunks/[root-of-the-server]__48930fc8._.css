@@ -166,6 +166,7 @@
 @layer theme {
   :root, :host {
     --spacing: .25rem;
+    --container-4xl: 56rem;
     --default-font-family: var(--font-geist-sans);
     --default-mono-font-family: var(--font-geist-mono);
   }
@@ -366,6 +367,10 @@
 
   .flex {
     display: flex;
+  }
+
+  .max-w-4xl {
+    max-width: var(--container-4xl);
   }
 
   .flex-row {
